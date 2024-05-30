@@ -1,4 +1,76 @@
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    height: 100vh;
+    margin: 0; 
+}
+
+article {
+    margin: 1rem;
+    display: flex;
+    width: 80%;
+    height: 5rem;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+article .box-1 {
+    background: red;
+    flex: 0;
+}
+
+article .box-2 {
+    background: orangered;
+    flex: 1;
+}
+
+article .box-3 {
+    background: orange;
+    flex: 1;
+}
+
+article .box-4 {
+    background: olivedrab;
+    flex: 2;
+}
+
+article .box-5 {
+    background: yellow;
+    flex: 3;
+}
+
+article .box-6 {
+    background: yellowgreen;
+    flex: 5;
+}
+
+article .box-7 {
+    background: green;
+    flex: 8;
+}
+
+article .box-8 {
+    background: blue;
+    flex: 13;
+}
+
+article .box-9 {
+    background: violet;
+    flex: 21;
+}
+
+article .box-10 {
+    background: blueviolet;
+    flex: 34;
+}
+
+
+/* body {
     margin: 0;
     background: #eee;
     height: 100vh;
@@ -37,4 +109,4 @@ article .box-6 { background:rgba(100,100,0,1); flex: 5; }
 article .box-7 { background:rgba(100,120,0,1); flex: 8; }
 article .box-8 { background:rgba(100,140,0,1); flex: 13; }
 article .box-9 { background:rgba(100,160,0,1); flex: 21; }
-article .box-10 { background:rgba(100,180,0,1); flex: 34; }
+article .box-10 { background:rgba(100,180,0,1); flex: 34; } */
