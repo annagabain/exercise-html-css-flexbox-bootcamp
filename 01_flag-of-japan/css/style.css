@@ -1,19 +1,25 @@
-.circle{
+.circle {
     width: 200px;
     height: 200px;
+    border-radius: 50%;
     background-color: red;
 }
 
 main {
-    width: 400px;
+    width: 600px;
     height: 400px;
-    background-color: blue;
-
-
+    margin: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-body {
-    background-color: rgb(183, 255, 0);
 
+body {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* :root {
