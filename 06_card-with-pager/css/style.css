@@ -1,4 +1,17 @@
 body {
+    background-color: lightgray;
+}
+
+.card {
+    color: red;
+    background-color: yellow;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* body {
     margin: 0;
     background: rgb(212, 212, 212);
     height: 100vh;
@@ -53,4 +66,4 @@ article.card {
 
 .card footer a.active {
     background: rgba(0,0,0,.8);
-}
+} */
