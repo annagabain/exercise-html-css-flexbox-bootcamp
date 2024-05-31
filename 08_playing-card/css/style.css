@@ -1,4 +1,52 @@
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    color: red;
+    background-color: rgb(249, 249, 249);
+    width: 20%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3rem;
+    border-radius: 0.5rem;
+    border: 0.5rem solid white;
+}
+
+aside {
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+aside span {
+    color: gray;
+}
+
+aside.top {
+    margin: 0.5rem;
+    align-self: flex-start;
+}
+
+aside.bottom {
+    transform: rotate(180deg);
+    margin: 0.5rem;
+    align-self: flex-end;
+}
+
+
+/* body {
     margin: 0;
     background: rgb(212, 212, 212);
     height: 100vh;
@@ -46,4 +94,4 @@ article.card {
     transform: rotate(180deg);
     margin: .5rem;
     align-self: flex-end;
-}
+} */
